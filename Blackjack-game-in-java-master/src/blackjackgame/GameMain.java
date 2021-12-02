@@ -221,7 +221,7 @@ public class GameMain {
 				 System.out.printf("You win[3:2]:$%.1f\t", (3*this.bet)/2);
 				 
 				 this.balance = this.balance + (3*this.bet)/2 + this.bet;
-				 System.out.printf("Your Current Balance:$%0.1f\n", this.balance);
+				 System.out.printf("Your Current Balance:$%.1f\n", this.balance);
 				 
 				 blackJack = true;
 			 }
